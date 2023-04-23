@@ -39,7 +39,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "coloredlogs>=15.0.1",
-        "deepspeed>=0.7.7",
+        "deepspeed>=0.7.7,<0.9.0",
         "diskcache>=5.4.0",
         "einops>=0.6.0",
         "encodec>=0.1.1",
@@ -55,5 +55,5 @@ setup(
         "torchaudio>=0.13.0",
         "tqdm>=4.64.1",
     ],
-    url="https://github.com/enhuiz/vall-e",
+    url="https://github.com/mkw18/vall-e",
 )
